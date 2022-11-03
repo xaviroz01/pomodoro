@@ -1,0 +1,68 @@
+﻿
+/*New css*/
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f8f4e3;
+}
+
+h2 {
+    color: #b7ac9e;
+    font-size: 5rem;
+    font-weight: bold;
+    padding: 1rem;
+}
+
+h3 {
+    font-weight: 300;
+    color: #b7ac9e;
+}
+
+.countdown {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.countdown-time {
+    display: flex;
+    justify-content: space-around;
+    padding: 1rem;
+}
+
+.btu {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    color: #ffffff;
+    width: 50%;
+}
+
+.minute, .second {
+    font-size: 2rem;
+}
+
+.container-minute, .container-second {
+    padding: 1rem;
+}
+
+.start, .stop, .reset {
+    cursor: pointer;
+    padding: 1rem;
+    background-color: #efebdc;
+    border-radius: 10%;
+}
+
+.btu :hover {
+    background-color: #d4cdc3;
+}
