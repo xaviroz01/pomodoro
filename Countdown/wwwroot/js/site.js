@@ -29,7 +29,8 @@ eleStart.addEventListener('click', function () {
                 if (minute == 0 && sec == 0) {
 
                     eleSec.innerHTML = "00";
-                    eleMinute.innerHTML = "25";
+                    minute = 25;
+                    eleMinute.innerHTML = minute;
                     click = false;
                     clearInterval(timer)
                     alert("หมดเวลา");
