@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "t5ed1zVu0udnAgdr1lc/iIgTqgzagx56mKQEsDIYmGv3MezjspeXZzizYjC3126y2lWtxP8x2rZKqp1fwGe2Bw==",
+  "dgSpecHash": "GxEOe3KNW+Xz1lshf9EVqWAZ9/D/m6cwP9hHE5QjKquWnXY8JUSb0NxbZcHOSs17+ZJPiuteWfDVqwQJoX1M5g==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Kuma\\Desktop\\c3\\Countdown\\Countdown\\Countdown.csproj",
+  "projectFilePath": "C:\\Users\\Kuma\\Desktop\\c3\\Countdown\\pomodoro\\Countdown\\Countdown.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

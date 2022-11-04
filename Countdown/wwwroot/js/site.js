@@ -10,16 +10,17 @@ var eleStop = document.getElementById('stop_btu');
 var eleReset = document.getElementById('reset_btu');
 
 
-var minute = 24
+var minute = 25
 var sec = 59;
 
 var click = false;
 
 eleStart.addEventListener('click', function () {
     if (!click) {
+        minute--
         click = true;
         timer = setInterval(() => {
-            eleMinute.innerHTML = 24;
+            eleMinute.innerHTML = minute;
             eleSec.innerHTML = sec;
             console.log(sec)
             
@@ -28,14 +29,14 @@ eleStart.addEventListener('click', function () {
                 if (minute == 0 && sec == 0) {
 
                     eleSec.innerHTML = "00";
-                    minute = 26;
-                    eleMinute.innerHTML = minute;
+                    eleMinute.innerHTML = "25";
                     click = false;
                     clearInterval(timer)
                     alert("หมดเวลา");
                 }
                 minute--
                 eleMinute.innerHTML = minute;
+                console.log(minute);
                 sec = 60
             }
 

@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Kuma\\Desktop\\c3\\Countdown\\Countdown\\Countdown.csproj",
+      "projectUniqueName": "C:\\Users\\Kuma\\Desktop\\c3\\Countdown\\pomodoro\\Countdown\\Countdown.csproj",
       "projectName": "Countdown",
-      "projectPath": "C:\\Users\\Kuma\\Desktop\\c3\\Countdown\\Countdown\\Countdown.csproj",
+      "projectPath": "C:\\Users\\Kuma\\Desktop\\c3\\Countdown\\pomodoro\\Countdown\\Countdown.csproj",
       "packagesPath": "C:\\Users\\Kuma\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Kuma\\Desktop\\c3\\Countdown\\Countdown\\obj\\",
+      "outputPath": "C:\\Users\\Kuma\\Desktop\\c3\\Countdown\\pomodoro\\Countdown\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
