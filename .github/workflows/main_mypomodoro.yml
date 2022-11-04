@@ -53,5 +53,5 @@ jobs:
         with:
           app-name: 'MyPomodoro'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_354D61E9291C4DB1A52AC531621234B4 }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_31207E9E70DC45BFBB049589515C271D }}
           package: .
